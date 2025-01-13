@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "concurrently \"cd oauth-server && npm i\" \"cd oauth-frontend && npm i\"",
-    "dev": "concurrently \"cd oauth-server && npm run dev\" \"cd oauth-frontend && npm run dev\"",
+    "install": "concurrently \"cd oauth-server && npm i\" \"cd oauth-frontend-main && npm i\"",
+    "dev": "concurrently \"cd oauth-server && npm run dev\" \"cd oauth-frontend-main && npm run dev\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
